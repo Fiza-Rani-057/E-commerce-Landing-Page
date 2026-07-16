@@ -242,7 +242,9 @@
  .div4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
  }
 
  #certificate {
@@ -250,8 +252,8 @@
     background-color: rgb(252, 194, 86);
     padding: 8px 15px;
     border-radius: 5px;
-    font-size: 30px;
-  margin-left: 30px;
+    font-size: 20px;
+    margin-left: 30px;
 
  }
 
@@ -260,8 +262,7 @@
     background-color: rgb(252, 194, 86);
     padding: 8px 15px;
     border-radius: 5px;
-    font-size: 30px;
-
+    font-size: 20px;
  }
 
  #seedling {
@@ -269,7 +270,7 @@
     background-color: rgb(252, 194, 86);
     padding: 8px 15px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
 
  }
 
@@ -278,7 +279,7 @@
     background-color: rgb(252, 194, 86);
     padding: 8px 15px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
  }
 
  .p1,
@@ -286,7 +287,10 @@
  .p3,
  .p4 {
     text-align: center;
-  font-size: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+
  }
 
  .str1,
@@ -294,4 +298,37 @@
  .str3,
  .str4 {
     text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+ }
+ .div5{
+    height: auto;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 40px;
+    margin-top: 50px;
+ }
+ .img1{
+   height: 100%;
+   width: 120%;
+   margin-left: 20px;
+ }
+ .img2{
+ 
+   height:  27em;
+   width: 70%;
+   margin-left: 100px;
+ }
+ .img3{
+  height: 60%;
+   width: 100%;
+   margin-left: 20px;
+   border-radius: 8px;
+ }
+ .img4{
+  height: 60%;
+   width: 90%;
+    border-radius: 8px;
  }
