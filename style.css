@@ -203,10 +203,11 @@
    justify-content: flex-start;
    margin-left: 30px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
  }
  .nav-link{
    color: black !important;
-   font-size: 13px !important;
+   font-size: 12px !important;
  }
  #tp{
    color:gray !important;
@@ -222,4 +223,3 @@
     position: absolute;
    left: 91%;
  }
- 
