@@ -133,6 +133,7 @@
     padding: 10px 15px;
     border-radius: 8px;
     background-color: rgba(235, 202, 235, 0.3);
+    margin-right: 10px;
  }
 
  .search {
@@ -153,4 +154,18 @@
     top: 50%;
     transform: translateY(-50%);
     color: gray;
+ }
+ .account{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+ 
+ .wishlist{
+    color: white;
+   display:  inline-block;
+   text-decoration: none;
+   font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
  }
