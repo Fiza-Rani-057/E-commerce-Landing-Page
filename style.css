@@ -145,7 +145,7 @@
 
  #search {
      width: 40%;
-    padding: 12px 50px 12px 15px;
+    padding: 8px 100px 8px 15px;
     border-radius: 10px;
    border: 1px solid white;
  }
@@ -162,7 +162,7 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 .account:hover{
    color:rgb(252, 194, 86);
