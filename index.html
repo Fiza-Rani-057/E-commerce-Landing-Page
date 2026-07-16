@@ -11,12 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="main">
-        <div class="container">
+        <div id="container">
             FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.
         </div>
 
@@ -54,21 +55,59 @@
         <span> <i class="fa-solid fa-location-dot" id="location"></i></span>
         <span id="categories"><i class="fa-solid fa-table-cells-large" id="table-cells"></i>
             Categories</span>
-          <span class="search">
-        <input type="text" placeholder="Search for products categories and brand..." id="search">
-     <i class="fa-solid fa-magnifying-glass"></i>
-       </span>
+        <span class="search">
+            <input type="text" placeholder="Search for products categories and brand..." id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+
         <a href="#" class="account">
-             <i class="fa-regular fa-circle-user"></i>
+            <i class="fa-regular fa-circle-user"></i>
             <span>Account</span>
         </a>
-
         <a href="#" class="wishlist">
             <i class="fa-solid fa-heart"></i>
             <span>WishList</span>
         </a>
-            <button class="btn">Your Cart</button></span>
+        <button class="btn">🛒 Your Cart</button></span>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fruit & Vegetables</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Beverages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                     <li class="nav-item" id="contact">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#" id="tp">Trending Products</a>
+                  </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="#" id="sale">sale</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
