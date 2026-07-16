@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
  }
- body{
-  background-color: rgb(245, 245, 245);
+
+ body {
+    background-color: rgb(245, 245, 245);
  }
+
  .main {
     display: flex;
     flex-wrap: wrap;
@@ -144,10 +146,10 @@
  }
 
  #search {
-     width: 40%;
+    width: 40%;
     padding: 8px 100px 8px 15px;
     border-radius: 10px;
-   border: 1px solid white;
+    border: 1px solid white;
  }
 
  .search i {
@@ -157,69 +159,139 @@
     transform: translateY(-50%);
     color: gray;
  }
- .account{
+
+ .account {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin-left: 10px;
-}
-.account:hover{
-   color:rgb(252, 194, 86);
-}
- 
- .wishlist{
-    color: white;
-   display:  inline-block;
-   text-decoration: none;
-   font-size: 12px;
-   font-family: Arial, Helvetica, sans-serif;
-   margin-left: 10px;
- }
- .wishlist:hover{
-   color:rgb(252, 194, 86);
- }
- .btn{
-   background-color:rgb(252, 194, 86) !important;
-   padding: 10px 30px;
-   font-weight: bold;
-   font-size: 15px;
-   border-radius: 8px;
-   font-family: Arial, Helvetica, sans-serif;
-   margin-left: 10px;
- }
- .btn:hover{
-   background-color: white !important;
-   cursor: pointer;
- }
- .container-fluid{
-   background-color: white;
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-   border: 1px solid white;
  }
 
- .navbar-nav{
-   display: flex;
-   justify-content: flex-start;
-   margin-left: 30px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-weight: bold;
+ .account:hover {
+    color: rgb(252, 194, 86);
  }
- .nav-link{
-   color: black !important;
-   font-size: 12px !important;
+
+ .wishlist {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
  }
- #tp{
-   color:gray !important;
-   font-size: 12px !important;
-   position: absolute;
-   left: 80%;
+
+ .wishlist:hover {
+    color: rgb(252, 194, 86);
  }
- #sale{
-   font-size: 10px !important;
-   background-color: rgb(236, 65, 65);
-   border-radius: 8px;
-   padding: 3px 10px;
+
+ .btn {
+    background-color: rgb(252, 194, 86) !important;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+ }
+
+ .btn:hover {
+    background-color: white !important;
+    cursor: pointer;
+ }
+
+ .container-fluid {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid white;
+ }
+
+ .navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+ }
+
+ .nav-link {
+    color: black !important;
+    font-size: 12px !important;
+ }
+
+ .nav-link:hover {
+    color: rgb(133, 5, 133) !important;
+ }
+
+ #tp {
+    color: gray !important;
+    font-size: 12px !important;
     position: absolute;
-   left: 91%;
+    left: 80%;
+ }
+
+ #sale {
+    font-size: 10px !important;
+    background-color: rgb(236, 65, 65);
+    border-radius: 8px;
+    padding: 3px 10px;
+    position: absolute;
+    left: 92%;
+ }
+
+ .div4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+ }
+
+ #certificate {
+    color: rgb(133, 5, 133);
+    background-color: rgb(252, 194, 86);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+  margin-left: 30px;
+
+ }
+
+ #tags {
+    color: rgb(133, 5, 133);
+    background-color: rgb(252, 194, 86);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+
+ }
+
+ #seedling {
+    color: rgb(133, 5, 133);
+    background-color: rgb(252, 194, 86);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+
+ }
+
+ #fast {
+    color: rgb(133, 5, 133);
+    background-color: rgb(252, 194, 86);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+ }
+
+ .p1,
+ .p2,
+ .p3,
+ .p4 {
+    text-align: center;
+  font-size: 15px;
+ }
+
+ .str1,
+ .str2,
+ .str3,
+ .str4 {
+    text-align: center;
  }
