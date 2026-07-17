@@ -301,34 +301,57 @@
     font-size: 15px;
     margin-top: 30px;
  }
- .div5{
+
+ .div5 {
     height: auto;
-   width: 100%;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   gap: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 40px;
     margin-top: 50px;
  }
- .img1{
-   height: 100%;
-   width: 120%;
-   margin-left: 20px;
+
+ .img1 {
+    height: 100%;
+    width: 120%;
+    margin-left: 20px;
  }
- .img2{
- 
-   height:  27em;
-   width: 70%;
-   margin-left: 100px;
+
+ .img2 {
+
+    height: 27em;
+    width: 70%;
+    margin-left: 100px;
  }
- .img3{
-  height: 60%;
-   width: 100%;
-   margin-left: 20px;
-   border-radius: 8px;
- }
- .img4{
-  height: 60%;
-   width: 90%;
+
+ .img3 {
+    height: 90%;
+    width: 100%;
+    margin-left: 20px;
     border-radius: 8px;
+ }
+
+ .img4 {
+    height: 90%;
+    width: 90%;
+    border-radius: 8px;
+ }
+ .div6{
+   margin-top: 0;
+   margin-left: 10px;
+   display: flex;
+ }
+ .div7{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   
+ }
+ .img5,.img6,.img7{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
  }
