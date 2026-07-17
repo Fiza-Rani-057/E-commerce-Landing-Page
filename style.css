@@ -357,3 +357,24 @@
    width: 100%;
    border-radius: 5px;
  }
+ .div8{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto auto auto auto;
+   margin-left: 10%;
+   margin-right: 10%;
+   
+ }
+ .card1{
+   display: flex;
+   height: auto;
+   width: 100%;
+   background-color: white;
+   border: 1px solid black;
+   margin-bottom: 20px;
+ }
+ #window{
+ font-size: 50px;
+ color: black;
+ margin-left: 10px;
+ }
