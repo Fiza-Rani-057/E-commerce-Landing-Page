@@ -364,12 +364,16 @@
  }
 
  .div8 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+    display: flex;
     margin-left: 3%;
     margin-right: 5%;
 
+ }
+
+ .div13 {
+    display: flex;
+    margin-left: 30px;
+    gap: 3%;
  }
 
  .card1 {
@@ -388,11 +392,11 @@
  }
 
  .img8 {
-    width: 400%;
+    width: 100%;
  }
 
  .img9 {
-    width: 410%;
+    width: 100%;
     margin-bottom: 20px;
  }
 
@@ -403,14 +407,18 @@
 
  .div10 {
     display: flex;
-    gap: 5%;
+    gap: 1%;
+    margin-left: 25px;
+    margin-right: 25px;
  }
 
  .img10,
  .img11 {
-    width: 200%;
+    width: 49%;
     height: auto;
     display: block;
     border-radius: 5px;
     margin-bottom: 20px;
  }
+
+ /* footer  */
